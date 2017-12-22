@@ -124,6 +124,7 @@ module.exports = {
         }],
 
         // ES6相关
-        "no-const-assign": 1
+        // 禁止修改 const 声明的变量
+        "no-const-assign": 2
     }
 }
